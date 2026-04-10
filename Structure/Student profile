@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+struct students {
+    char *name;
+    int age;
+    int mob;
+    char *prog;
+} s1,s2;
+
+int main() {
+
+    s1.name = "shashwat";
+    s1.age = 19;
+    s1.mob = 6200;
+    s1.prog = "b.tech";
+    
+    s2.name = "Ayush";
+    s2.age = 21;
+    s2.mob = 1234;
+    s2.prog = "b.tech";
+
+    printf("name: %s\n", s1.name);
+    printf("age:  %d\n", s1.age);
+    printf("mob:  %d\n", s1.mob);
+    printf("prog: %s\n", s1.prog);
+    
+    printf("name: %s\n", s2.name);
+    printf("age: %d\n", s2.age);
+    printf("mob: %d\n", s2.mob);
+    printf("prog:%s\n", s2.prog);
+
+    return 0;
+}
