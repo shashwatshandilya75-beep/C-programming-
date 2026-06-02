@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+struct account {
+    char *name;
+    char *aadhar_no;
+    char *mob_no;
+    char *AC_no;
+    char *IFSC_code;
+    char *PAN_no;
+    char *DOB;
+}x;
+
+int main() {
+
+    x.name = "shashwat";
+    x.aadhar_no = "791010497364";
+    x.mob_no = "6200457010";
+    x.AC_no = "009510086502";
+    x.IFSC_code = "IPOS0001";
+    x.PAN_no = "MN6P29Z731";
+    x.DOB = "03-04-2006";
+    
+    printf("---- Account Details ----\n");
+    printf("name: %s\n", x.name);
+    printf("aadhar-no: %s\n", x.aadhar_no);
+    printf("mob-no: %s\n", x.mob_no);
+    printf("AC-no: %s\n", x.AC_no);
+    printf("IFSC-code: %s\n", x.IFSC_code);
+    printf("PAN-no: %s\n", x.PAN_no);
+    printf("DOB: %s\n", x.DOB);
+
+    return 0;
+}
